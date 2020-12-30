@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&q=Maceio
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Wed, 30 Dec 2020 16:48:35 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '471'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/weather?q=maceio"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6ImJyb2tlbiBjbG91ZHMiLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjMwMi4xNSwiZmVlbHNfbGlrZSI6MzAzLjEsInRlbXBfbWluIjozMDIuMTUsInRlbXBfbWF4IjozMDIuMTUsInByZXNzdXJlIjoxMDEyLCJodW1pZGl0eSI6NjJ9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6NC42LCJkZWciOjEyMH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDkzNDY3NTMsInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTMxNTUxMCwic3Vuc2V0IjoxNjA5MzYxMTU0fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
+    http_version: 
+  recorded_at: Wed, 30 Dec 2020 16:48:37 GMT
+recorded_with: VCR 3.0.3
