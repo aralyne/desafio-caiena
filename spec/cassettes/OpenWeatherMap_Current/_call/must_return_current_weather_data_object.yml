@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&q=Maceio
+    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&id=3395981
     body:
       encoding: US-ASCII
       string: ''
@@ -21,15 +21,15 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Wed, 30 Dec 2020 16:48:35 GMT
+      - Thu, 31 Dec 2020 15:18:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '471'
+      - '472'
       Connection:
       - keep-alive
       X-Cache-Key:
-      - "/data/2.5/weather?q=maceio"
+      - "/data/2.5/weather?id=3395981"
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Credentials:
@@ -39,7 +39,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6ImJyb2tlbiBjbG91ZHMiLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjMwMi4xNSwiZmVlbHNfbGlrZSI6MzAzLjEsInRlbXBfbWluIjozMDIuMTUsInRlbXBfbWF4IjozMDIuMTUsInByZXNzdXJlIjoxMDEyLCJodW1pZGl0eSI6NjJ9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6NC42LCJkZWciOjEyMH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDkzNDY3NTMsInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTMxNTUxMCwic3Vuc2V0IjoxNjA5MzYxMTU0fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
+        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6ImJyb2tlbiBjbG91ZHMiLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjMwMC4xNSwiZmVlbHNfbGlrZSI6MzAwLjg0LCJ0ZW1wX21pbiI6MzAwLjE1LCJ0ZW1wX21heCI6MzAwLjE1LCJwcmVzc3VyZSI6MTAxNCwiaHVtaWRpdHkiOjgzfSwidmlzaWJpbGl0eSI6MTAwMDAsIndpbmQiOnsic3BlZWQiOjcuMiwiZGVnIjoxMjB9LCJjbG91ZHMiOnsiYWxsIjo3NX0sImR0IjoxNjA5NDI3NDI1LCJzeXMiOnsidHlwZSI6MSwiaWQiOjg0MTMsImNvdW50cnkiOiJCUiIsInN1bnJpc2UiOjE2MDk0MDE5NDEsInN1bnNldCI6MTYwOTQ0NzU3OX0sInRpbWV6b25lIjotMTA4MDAsImlkIjozMzk1OTgxLCJuYW1lIjoiTWFjZWnDsyIsImNvZCI6MjAwfQ==
     http_version: 
-  recorded_at: Wed, 30 Dec 2020 16:48:37 GMT
+  recorded_at: Thu, 31 Dec 2020 15:18:19 GMT
 recorded_with: VCR 3.0.3

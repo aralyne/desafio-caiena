@@ -6,10 +6,11 @@ class OpenWeatherMap::Current
 
   def call
     {
+      city_id: @api['id'],
       temp: @api['main']['temp'],
       city_name: @api['name'],
       weather: @api['weather'].first['description'], 
-      current_date: Date.current
+      current_date: Date.current.strftime("%d/%m/%Y")
     }
   end
 
@@ -20,6 +21,6 @@ class OpenWeatherMap::Current
   end
 
   def city
-    @params[:city_name]
+    @params[:city_id]
   end
 end
