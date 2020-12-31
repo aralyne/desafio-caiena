@@ -34,6 +34,7 @@ group :development, :test do
   gem 'webmock', '~> 3.10'
   gem 'dotenv-rails'
   gem 'pry', '~> 0.13.1'
+  gem 'twitter', '~> 6.2'
 end
 
 group :development do
