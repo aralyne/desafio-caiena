@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&id=3395981
+    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&id=3395981&lang=pt_br&units=metric
     body:
       encoding: US-ASCII
       string: ''
@@ -21,15 +21,15 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Thu, 31 Dec 2020 15:18:16 GMT
+      - Thu, 31 Dec 2020 18:37:04 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
-      - '472'
+      - '453'
       Connection:
       - keep-alive
       X-Cache-Key:
-      - "/data/2.5/weather?id=3395981"
+      - "/data/2.5/weather?id=3395981&lang=pt_br&units=metric"
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Credentials:
@@ -39,7 +39,7 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6ImJyb2tlbiBjbG91ZHMiLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjMwMC4xNSwiZmVlbHNfbGlrZSI6MzAwLjg0LCJ0ZW1wX21pbiI6MzAwLjE1LCJ0ZW1wX21heCI6MzAwLjE1LCJwcmVzc3VyZSI6MTAxNCwiaHVtaWRpdHkiOjgzfSwidmlzaWJpbGl0eSI6MTAwMDAsIndpbmQiOnsic3BlZWQiOjcuMiwiZGVnIjoxMjB9LCJjbG91ZHMiOnsiYWxsIjo3NX0sImR0IjoxNjA5NDI3NDI1LCJzeXMiOnsidHlwZSI6MSwiaWQiOjg0MTMsImNvdW50cnkiOiJCUiIsInN1bnJpc2UiOjE2MDk0MDE5NDEsInN1bnNldCI6MTYwOTQ0NzU3OX0sInRpbWV6b25lIjotMTA4MDAsImlkIjozMzk1OTgxLCJuYW1lIjoiTWFjZWnDsyIsImNvZCI6MjAwfQ==
+        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6Im51YmxhZG8iLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjI3LCJmZWVsc19saWtlIjoyNy40NiwidGVtcF9taW4iOjI3LCJ0ZW1wX21heCI6MjcsInByZXNzdXJlIjoxMDEzLCJodW1pZGl0eSI6Nzh9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6Ni43LCJkZWciOjEyMH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDk0Mzk3MjksInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTQwMTk0MSwic3Vuc2V0IjoxNjA5NDQ3NTc5fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
     http_version: 
-  recorded_at: Thu, 31 Dec 2020 15:18:19 GMT
+  recorded_at: Thu, 31 Dec 2020 18:37:07 GMT
 recorded_with: VCR 3.0.3

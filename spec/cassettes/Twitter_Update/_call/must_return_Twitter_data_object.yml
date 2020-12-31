@@ -21,7 +21,7 @@ http_interactions:
       Server:
       - openresty
       Date:
-      - Thu, 31 Dec 2020 17:20:43 GMT
+      - Thu, 31 Dec 2020 18:51:56 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -39,22 +39,22 @@ http_interactions:
     body:
       encoding: ASCII-8BIT
       string: !binary |-
-        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6Im51YmxhZG8iLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjI2LCJmZWVsc19saWtlIjoyNy42MSwidGVtcF9taW4iOjI2LCJ0ZW1wX21heCI6MjYsInByZXNzdXJlIjoxMDEzLCJodW1pZGl0eSI6ODN9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6NS4xLCJkZWciOjE0MH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDk0MzUyMzUsInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTQwMTk0MSwic3Vuc2V0IjoxNjA5NDQ3NTc5fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
+        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6Im51YmxhZG8iLCJpY29uIjoiMDRkIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjI3LCJmZWVsc19saWtlIjoyNy40NiwidGVtcF9taW4iOjI3LCJ0ZW1wX21heCI6MjcsInByZXNzdXJlIjoxMDEzLCJodW1pZGl0eSI6Nzh9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6Ni43LCJkZWciOjEyMH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDk0NDA2NTUsInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTQwMTk0MSwic3Vuc2V0IjoxNjA5NDQ3NTc5fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
     http_version: 
-  recorded_at: Thu, 31 Dec 2020 17:20:46 GMT
+  recorded_at: Thu, 31 Dec 2020 18:51:59 GMT
 - request:
     method: post
     uri: https://api.twitter.com/1.1/statuses/update.json
     body:
       encoding: UTF-8
-      string: status=Hoje%2C+31%2F12%2F2020%2C+a+temperatura+%C3%A9+de+26%C2%B0C+com+tempo+nublado+em+Macei%C3%B3.
+      string: status=Hoje%2C+31%2F12%2F2020%2C+a+temperatura+%C3%A9+de+27%C2%B0C+com+tempo+nublado+em+Macei%C3%B3.
     headers:
       User-Agent:
       - TwitterRubyGem/6.2.0
       Authorization:
-      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="3b8f07893eb7de35a4925868c4de453c",
-        oauth_signature="Vf2wdb0a6%2Fhp5SJ5V6txJB7sbZU%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1609435246", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
+      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="98f92a0b52291ec5f8b1a2aee41e1b29",
+        oauth_signature="UTx%2Fx69Hf32WAV6%2FbYCzzIj0Br0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1609440719", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
         oauth_version="1.0"
       Connection:
       - close
@@ -78,21 +78,21 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 31 Dec 2020 17:20:43 GMT
+      - Thu, 31 Dec 2020 18:51:56 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 31 Dec 2020 17:20:43 GMT
+      - Thu, 31 Dec 2020 18:51:56 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_d
       Set-Cookie:
-      - guest_id=v1%3A160943524375161791; Max-Age=63072000; Expires=Sat, 31 Dec 2022
-        17:20:43 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A160944071661586563; Max-Age=63072000; Expires=Sat, 31 Dec 2022
+        18:51:56 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=pt; Path=/
-      - personalization_id="v1_1NRNJ0Fq5epSgULRJ92Oiw=="; Max-Age=63072000; Expires=Sat,
-        31 Dec 2022 17:20:43 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_7wMWgF4dAqKAG3eyQZh3/A=="; Max-Age=63072000; Expires=Sat,
+        31 Dec 2022 18:51:56 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -100,15 +100,15 @@ http_interactions:
       X-Access-Level:
       - read-write-directmessages
       X-Connection-Hash:
-      - 568dc8f1dc8b502df06a375dd4c89a2a
+      - b8f938b018709174d4e005af4bc526b2
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - SAMEORIGIN
       X-Response-Time:
-      - '182'
+      - '184'
       X-Transaction:
-      - 00c7bcb7002b911e
+      - 00c7cf5b00b2e547
       X-Tsa-Request-Body-Time:
       - '1'
       X-Twitter-Response-Tags:
@@ -117,12 +117,12 @@ http_interactions:
       - '0'
     body:
       encoding: UTF-8
-      string: '{"created_at":"Thu Dec 31 17:20:43 +0000 2020","id":1344694991105437696,"id_str":"1344694991105437696","text":"Hoje,
-        31\/12\/2020, a temperatura \u00e9 de 26\u00b0C com tempo nublado em Macei\u00f3.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
+      string: '{"created_at":"Thu Dec 31 18:51:56 +0000 2020","id":1344717945964998656,"id_str":"1344717945964998656","text":"Hoje,
+        31\/12\/2020, a temperatura \u00e9 de 27\u00b0C com tempo nublado em Macei\u00f3.","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
         href=\"http:\/\/qualitex.com.br\" rel=\"nofollow\"\u003ecaiena-post\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":274830132,"id_str":"274830132","name":"Aralyne","screen_name":"AralyneS","location":"","description":"\u00c0s
         vezes eu fa\u00e7o uns sistemas, \u00e0s vezes eu quebro, mas \u00e0s vezes
         eu conserto","url":"https:\/\/t.co\/riWxoFdDzQ","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/riWxoFdDzQ","expanded_url":"https:\/\/www.linkedin.com\/in\/aralyne-gon%C3%A7alves-353549165\/","display_url":"linkedin.com\/in\/aralyne-gon\u2026","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":211,"friends_count":360,"listed_count":0,"created_at":"Thu
-        Mar 31 03:14:04 +0000 2011","favourites_count":1560,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":594,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"pt"}'
+        Mar 31 03:14:04 +0000 2011","favourites_count":1561,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":597,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"pt"}'
     http_version: 
-  recorded_at: Thu, 31 Dec 2020 17:20:46 GMT
+  recorded_at: Thu, 31 Dec 2020 18:51:59 GMT
 recorded_with: VCR 3.0.3
