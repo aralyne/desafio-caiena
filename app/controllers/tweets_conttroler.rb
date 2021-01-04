@@ -1,1 +1,0 @@
-client.update("I'm tweeting with @gem!")
