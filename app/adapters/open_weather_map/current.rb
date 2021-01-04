@@ -6,7 +6,6 @@ class OpenWeatherMap::Current
 
   def call
     {
-      city_id: @api['id'],
       temp: @api['main']['temp'],
       city_name: @api['name'],
       weather: @api['weather'].first['description'], 
@@ -21,6 +20,6 @@ class OpenWeatherMap::Current
   end
 
   def city
-    @params[:city_id]
+    @params[:id]
   end
 end
