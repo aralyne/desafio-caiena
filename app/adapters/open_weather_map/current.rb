@@ -5,12 +5,16 @@ class OpenWeatherMap::Current
   end
 
   def call
-    {
-      temp: @api['main']['temp'],
-      city_name: @api['name'],
-      weather: @api['weather'].first['description'], 
-      current_date: Date.current.strftime("%d/%m/%Y")
-    }
+    if @api['cod'] == 200
+      {
+        temp: @api['main']['temp'],
+        city_name: @api['name'],
+        weather: @api['weather'].first['description'], 
+        current_date: Date.current.strftime("%d/%m/%Y")
+      }
+    else
+      @api
+    end
   end
 
   private

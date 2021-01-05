@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.openweathermap.org/data/2.5/weather?appid=e88c1515be1de476a1469d4bdb9cb1eb&id=3395981&lang=pt_br&units=metric
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - openresty
+      Date:
+      - Tue, 05 Jan 2021 02:11:31 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '453'
+      Connection:
+      - keep-alive
+      X-Cache-Key:
+      - "/data/2.5/weather?id=3395981&lang=pt_br&units=metric"
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Allow-Methods:
+      - GET, POST
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJjb29yZCI6eyJsb24iOi0zNS43NCwibGF0IjotOS42N30sIndlYXRoZXIiOlt7ImlkIjo4MDMsIm1haW4iOiJDbG91ZHMiLCJkZXNjcmlwdGlvbiI6Im51YmxhZG8iLCJpY29uIjoiMDRuIn1dLCJiYXNlIjoic3RhdGlvbnMiLCJtYWluIjp7InRlbXAiOjIzLCJmZWVsc19saWtlIjoyNC41OCwidGVtcF9taW4iOjIzLCJ0ZW1wX21heCI6MjMsInByZXNzdXJlIjoxMDE0LCJodW1pZGl0eSI6OTR9LCJ2aXNpYmlsaXR5IjoxMDAwMCwid2luZCI6eyJzcGVlZCI6NC40NCwiZGVnIjo5OH0sImNsb3VkcyI6eyJhbGwiOjc1fSwiZHQiOjE2MDk4MTI1NzMsInN5cyI6eyJ0eXBlIjoxLCJpZCI6ODQxMywiY291bnRyeSI6IkJSIiwic3VucmlzZSI6MTYwOTc0NzY2OSwic3Vuc2V0IjoxNjA5NzkzMjY5fSwidGltZXpvbmUiOi0xMDgwMCwiaWQiOjMzOTU5ODEsIm5hbWUiOiJNYWNlacOzIiwiY29kIjoyMDB9
+    http_version: 
+  recorded_at: Tue, 05 Jan 2021 02:11:38 GMT
+recorded_with: VCR 3.0.3
