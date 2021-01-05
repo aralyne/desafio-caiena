@@ -1,7 +1,8 @@
 class TweetsController < ApplicationController
   def create
-    open_weather_map_adpter = OpenWeatherMap::Current.new(weather_params).call
-    tweet = Twitter::Update.new(open_weather_map_adpter).call
+    owm_adpter_current = OpenWeatherMap::Current.new(weather_params).call
+    owm_adpter_forecast = OpenWeatherMap::Forecast.new(weather_params).call
+    tweet = Twitter::Update.new(owm_adpter_current, owm_adpter_forecast).call
 
     render json: tweet, status: :created
   end
