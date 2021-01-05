@@ -21,12 +21,10 @@ RSpec.describe OpenWeatherMap::Current do
 
         adapter = OpenWeatherMap::Current.new(params).call
 
-        expect(adapter).to have_key('message')
-        expect(adapter['message']).to eq('Nothing to geocode')
-        expect(adapter).to have_key('cod')
-        expect(adapter['cod']).to eq('400')
-        
-        
+        expect(adapter).to have_key(:message)
+        expect(adapter[:message]).to eq('Nothing to geocode')
+        expect(adapter).to have_key(:code)
+        expect(adapter[:code]).to eq('400')
       end
     end
   end

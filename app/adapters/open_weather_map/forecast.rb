@@ -1,14 +1,15 @@
 class OpenWeatherMap::Forecast
   def initialize(params)
     @params = params
-    @api = OpenWeatherMap::Config.new(city, endpoint).call
+    @api = OpenWeatherMap::Config.new(city_id, endpoint).call
   end
 
   def call
-   
-    @api['list'].map{|l| {date: l['dt'], temp: l['main']['temp']} }
-    
-    
+    list = []
+    hash = @api['list'].map{|l| {date: l['dt'], temp: l['main']['temp']} }
+    grouped = hash.group_by{|i| Time.at(i[:date]).to_date}
+    grouped.each{|k,v| list << {date: k, temps: v.map{|i| i[:temp]}.sum(0.0) / v.size} }
+    list
   end
 
   private
@@ -17,7 +18,7 @@ class OpenWeatherMap::Forecast
     'forecast'
   end
 
-  def city
-    @params[:city_name]
+  def city_id
+    @params[:id]
   end
 end

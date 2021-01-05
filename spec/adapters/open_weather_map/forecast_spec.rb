@@ -3,12 +3,13 @@ require 'rails_helper'
 RSpec.describe OpenWeatherMap::Forecast do 
   describe '#call' do
     it 'must return forecast weather data object', :vcr do
-      params = { city_name: 'Maceio' }
+      params = {id:'3395981'}
 
       adapter = OpenWeatherMap::Forecast.new(params).call
-      
-      expect(adapter).to have_key(:temp)
-      expect(adapter).to have_key(:date)
+
+      expect(adapter[0]).to have_key(:date)
+      expect(adapter[0]).to have_key(:temps)
+      expect(adapter.size).to eq(6)
     end
   end
 end

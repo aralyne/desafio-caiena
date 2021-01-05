@@ -4,9 +4,9 @@ RSpec.describe Twitter::Update do
   describe '#call' do
     it 'must return Twitter data object', :vcr do
       open_weather_map_adpter = {
-          city_name:'Maceio', 
-          temp: 27, 
-          weather: 'Núvens Limpas', 
+          city_name: 'Maceio',
+          temp: 27,
+          weather: 'Núvens Limpas',
           current_date: Date.current
       }
 
