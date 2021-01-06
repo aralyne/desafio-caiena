@@ -5,14 +5,14 @@ http_interactions:
     uri: https://api.twitter.com/1.1/statuses/update.json
     body:
       encoding: UTF-8
-      string: status=Hoje%2C+06%2F01%2F2021%2C+a+temperatura+%C3%A9+de+27%C2%B0C%2C+e+N%C3%BAvens+Limpas+em+Maceio.+Pr%C3%B3ximos+dias%3A+27.25+%C2%B0C%2C+em+Tue%2C+05+Jan+2021%2C+26.49+%C2%B0C%2C+em+Wed%2C+06+Jan+2021%2C+26.67+%C2%B0C%2C+em+Thu%2C+07+Jan+2021%2C+27.05+%C2%B0C%2C+em+Fri%2C+08+Jan+2021%2C+27.1+%C2%B0C%2C+em+Sat%2C+09+Jan+2021%2C+25.98+%C2%B0C%2C+em+Sun%2C+10+Jan+2021
+      string: status=Hoje%2C+06%2F01%2F2021%2C+a+temperatura+%C3%A9+de+27%C2%B0C%2C+e+N%C3%BAvens+Limpas+em+Maceio.+M%C3%A9dia+para+os+pr%C3%B3ximos+dias%3A++27%C2%B0C%2C+em+06%2F01%2F2021%2C+26%C2%B0C%2C+em+07%2F01%2F2021%2C+26%C2%B0C%2C+em+05%2F01%2F2021%2C+27%C2%B0C%2C+em+09%2F01%2F2021%2C+27%C2%B0C%2C+em+10%2F01%2F2021%2C+25%C2%B0C%2C+em+11%2F01%2F2021
     headers:
       User-Agent:
       - TwitterRubyGem/6.2.0
       Authorization:
-      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="427974e77a2cd2edf56bf7d72540d94e",
-        oauth_signature="vFYYFEAzKewEoPCbiAn5GU1fQf4%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1609896732", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
+      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="d8148934a3957b82f20f02d593d63292",
+        oauth_signature="MZXOD6hp0ZqX3UFZfbTAaLVDLjw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1609947005", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
         oauth_version="1.0"
       Connection:
       - close
@@ -32,25 +32,25 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '2709'
+      - '2716'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Wed, 06 Jan 2021 01:32:06 GMT
+      - Wed, 06 Jan 2021 15:29:58 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Wed, 06 Jan 2021 01:32:06 GMT
+      - Wed, 06 Jan 2021 15:29:58 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_d
       Set-Cookie:
-      - guest_id=v1%3A160989672605834610; Max-Age=63072000; Expires=Fri, 06 Jan 2023
-        01:32:06 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A160994699884770254; Max-Age=63072000; Expires=Fri, 06 Jan 2023
+        15:29:58 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=pt; Path=/
-      - personalization_id="v1_9ea8vBuG3XTkTBlPKxqWFw=="; Max-Age=63072000; Expires=Fri,
-        06 Jan 2023 01:32:06 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_WVX/WzERE0oYhMbhK6Tv4g=="; Max-Age=63072000; Expires=Fri,
+        06 Jan 2023 15:29:58 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -58,7 +58,7 @@ http_interactions:
       X-Access-Level:
       - read-write-directmessages
       X-Connection-Hash:
-      - 765a35d09a807ac7289cee15f34ce4b9
+      - 4088ce59f46ea6ad7e1d246004fbb2f1
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -66,7 +66,7 @@ http_interactions:
       X-Response-Time:
       - '204'
       X-Transaction:
-      - 0025771500ae9304
+      - 00f9330a00c4426d
       X-Tsa-Request-Body-Time:
       - '1'
       X-Twitter-Response-Tags:
@@ -75,13 +75,13 @@ http_interactions:
       - '0'
     body:
       encoding: UTF-8
-      string: '{"created_at":"Wed Jan 06 01:32:06 +0000 2021","id":1346630588187475969,"id_str":"1346630588187475969","text":"Hoje,
+      string: '{"created_at":"Wed Jan 06 15:29:58 +0000 2021","id":1346841447547461633,"id_str":"1346841447547461633","text":"Hoje,
         06\/01\/2021, a temperatura \u00e9 de 27\u00b0C, e N\u00favens Limpas em Maceio.
-        Pr\u00f3ximos dias: 27.25 \u00b0C, em Tue, 05 Jan 2021,\u2026 https:\/\/t.co\/c5QaiwqTew","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/c5QaiwqTew","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1346630588187475969","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
+        M\u00e9dia para os pr\u00f3ximos dias:  27\u00b0C, em 06\/01\/\u2026 https:\/\/t.co\/D2dLOwxIBj","truncated":true,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[{"url":"https:\/\/t.co\/D2dLOwxIBj","expanded_url":"https:\/\/twitter.com\/i\/web\/status\/1346841447547461633","display_url":"twitter.com\/i\/web\/status\/1\u2026","indices":[117,140]}]},"source":"\u003ca
         href=\"http:\/\/qualitex.com.br\" rel=\"nofollow\"\u003ecaiena-post\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":274830132,"id_str":"274830132","name":"Aralyne","screen_name":"AralyneS","location":"","description":"\u00c0s
         vezes eu crio uns sistemas, \u00e0s vezes eu quebro, mas \u00e0s vezes eu
-        conserto","url":"https:\/\/t.co\/riWxoFdDzQ","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/riWxoFdDzQ","expanded_url":"https:\/\/www.linkedin.com\/in\/aralyne-gon%C3%A7alves-353549165\/","display_url":"linkedin.com\/in\/aralyne-gon\u2026","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":212,"friends_count":360,"listed_count":0,"created_at":"Thu
-        Mar 31 03:14:04 +0000 2011","favourites_count":1561,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":599,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"pt"}'
+        conserto","url":"https:\/\/t.co\/riWxoFdDzQ","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/riWxoFdDzQ","expanded_url":"https:\/\/www.linkedin.com\/in\/aralyne-gon%C3%A7alves-353549165\/","display_url":"linkedin.com\/in\/aralyne-gon\u2026","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":213,"friends_count":360,"listed_count":0,"created_at":"Thu
+        Mar 31 03:14:04 +0000 2011","favourites_count":1560,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":596,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"pt"}'
     http_version: 
-  recorded_at: Wed, 06 Jan 2021 01:32:13 GMT
+  recorded_at: Wed, 06 Jan 2021 15:30:06 GMT
 recorded_with: VCR 3.0.3

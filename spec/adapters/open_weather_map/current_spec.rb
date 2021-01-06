@@ -4,7 +4,7 @@ RSpec.describe OpenWeatherMap::Current do
   describe '#call' do
     context 'When return current weather data objec' do
       it 'must return current weather data object', :vcr do
-        params = {id:'3395981'} #Maceió -3395981
+        params = {city_id:'3395981'} #Maceió -3395981
 
         adapter = OpenWeatherMap::Current.new(params).call
 
@@ -17,7 +17,7 @@ RSpec.describe OpenWeatherMap::Current do
 
     context 'When not return current weather data object' do
       it 'must return 400 http status code', :vcr do
-        params = {id: nil} 
+        params = {city_id: nil} 
 
         adapter = OpenWeatherMap::Current.new(params).call
 

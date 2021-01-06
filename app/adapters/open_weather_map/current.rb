@@ -14,7 +14,7 @@ class OpenWeatherMap::Current
 
   def success_response
     {
-      temp: @api['main']['temp'],
+      temp: @api['main']['temp'].ceil,
       city_name: @api['name'],
       weather: @api['weather'].first['description'], 
       current_date: Date.current.strftime("%d/%m/%Y")
@@ -30,6 +30,6 @@ class OpenWeatherMap::Current
   end
 
   def city_id
-    @params[:id]
+    @params[:city_id]
   end
 end

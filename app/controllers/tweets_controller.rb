@@ -8,7 +8,8 @@ class TweetsController < ApplicationController
   end
 
   private
+  
   def weather_params
-    params.require(:city).permit(:id)
+    params.require(:tweet).permit(:city_id)
   end
 end

@@ -18,7 +18,7 @@ class Twitter::Update
   end
 
   def forecast_message
-    "Próximos dias: #{@weather_response_forecast.map { |k, _v| "#{k[:temps]}°C, em #{k[:date]}" }.join(', ')}"
+    "Média para os próximos dias:  #{@weather_response_forecast.map { |k, _v| "#{k[:temps]}°C, em #{k[:date]}" }.join(', ')}"
   end
 end
 

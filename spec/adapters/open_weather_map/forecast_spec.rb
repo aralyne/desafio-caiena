@@ -4,7 +4,7 @@ RSpec.describe OpenWeatherMap::Forecast do
   describe '#call' do
     context 'When return forecast weather data objec' do
       it 'must return forecast weather data object', :vcr do
-        params = {id: '3395981'}
+        params = {city_id: '3395981'}
 
         adapter = OpenWeatherMap::Forecast.new(params).call
 
@@ -17,7 +17,7 @@ RSpec.describe OpenWeatherMap::Forecast do
 
   context 'When not return forecast weather data object' do
     it 'must return 400 http status code', :vcr do
-      params = {id: nil}
+      params = {city_id: nil}
 
       adapter = OpenWeatherMap::Forecast.new(params).call
 
