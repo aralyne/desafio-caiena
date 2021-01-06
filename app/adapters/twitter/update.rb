@@ -6,7 +6,7 @@ class Twitter::Update
   end
   
   def call
-     @client.update(
+       @client.update(
       "#{current_message} #{forecast_message}"
       )
   end
@@ -14,11 +14,11 @@ class Twitter::Update
   private
 
   def current_message
-    "Hoje, #{@weather_response_current[:current_date]}, a temperatura é de #{@weather_response_current[:temp]}°C com tempo #{@weather_response_current[:weather]} em #{@weather_response_current[:city_name]}."
+    "Hoje, #{@weather_response_current[:current_date]}, a temperatura é de #{@weather_response_current[:temp]}°C, e #{@weather_response_current[:weather]} em #{@weather_response_current[:city_name]}."
   end
 
   def forecast_message
-    "A previsão para os próximos 5 dias é: #{@weather_response_forecast.each{|w| w[:date]}}"
+    "Próximos dias: #{@weather_response_forecast.map { |k, _v| "#{k[:temps]}°C, em #{k[:date]}" }.join(', ')}"
   end
 end
 
