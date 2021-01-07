@@ -3,7 +3,6 @@ require 'rails_helper'
 RSpec.describe TweetCreator do 
   describe '#call' do
     it 'create tweet', :vcr do
-
       tweet_params = {city_id: 3395981}
 
       tweet = TweetCreator.new(tweet_params).call
