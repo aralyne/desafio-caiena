@@ -20,6 +20,6 @@ class TweetCreator
   end
 
   def forecast_message
-    "Média para os próximos dias:  #{@owm_adpter_forecast.map { |k, _v| "#{k[:temps]}°C, em #{k[:date]}" }.join(', ')}"
+    "Média para os próximos dias:  #{@owm_adpter_forecast.map { |k, _v| "#{k[:temps]}°C em #{k[:date]}" }.join(', ')}"
   end
 end

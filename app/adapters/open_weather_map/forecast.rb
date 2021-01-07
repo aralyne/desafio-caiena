@@ -14,11 +14,12 @@ class OpenWeatherMap::Forecast
   private
 
   def success_response
+    
     list = []
     hash = @api['list'].map{|l| {date: l['dt'], temp: l['main']['temp']} }
     grouped = hash.group_by{|i| Time.at(i[:date]).to_date}
     grouped.each{|k,v| list << {date: k, temps: v.map{|i| i[:temp].ceil}.sum / v.size} }
-    list
+    list.drop(1)
   end
 
   def error_response

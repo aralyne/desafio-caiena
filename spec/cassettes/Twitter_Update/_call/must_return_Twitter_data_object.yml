@@ -10,90 +10,14 @@ http_interactions:
       User-Agent:
       - TwitterRubyGem/6.2.0
       Authorization:
-      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="71d7e5a8bafece701e2e696837c27f4f",
-        oauth_signature="utH09Boux%2FEIHzfJJv7ckuCIlFw%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1610033383", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
+      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="abeff3a52440d2aa128e41314cf7e08e",
+        oauth_signature="SeCmlXNRRu9Sx2UMeko8g15QCkE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1610063626", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
         oauth_version="1.0"
       Connection:
       - close
       Content-Type:
       - application/x-www-form-urlencoded
-      Host:
-      - api.twitter.com
-  response:
-    status:
-      code: 403
-      message: Forbidden
-    headers:
-      Cache-Control:
-      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
-      Connection:
-      - close
-      Content-Disposition:
-      - attachment; filename=json.json
-      Content-Length:
-      - '60'
-      Content-Type:
-      - application/json;charset=utf-8
-      Date:
-      - Thu, 07 Jan 2021 15:29:38 GMT
-      Expires:
-      - Tue, 31 Mar 1981 05:00:00 GMT
-      Last-Modified:
-      - Thu, 07 Jan 2021 15:29:38 GMT
-      Pragma:
-      - no-cache
-      Server:
-      - tsa_d
-      Set-Cookie:
-      - guest_id=v1%3A161003337831833802; Max-Age=63072000; Expires=Sat, 07 Jan 2023
-        15:29:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      - lang=pt; Path=/
-      - personalization_id="v1_B86qPfM6IH1e3RLt229aLw=="; Max-Age=63072000; Expires=Sat,
-        07 Jan 2023 15:29:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
-      Status:
-      - 403 Forbidden
-      Strict-Transport-Security:
-      - max-age=631138519
-      X-Access-Level:
-      - read-write-directmessages
-      X-Connection-Hash:
-      - 0fb87ae6b230862616ee1dad16c8f9b8
-      X-Content-Type-Options:
-      - nosniff
-      X-Frame-Options:
-      - SAMEORIGIN
-      X-Response-Time:
-      - '226'
-      X-Transaction:
-      - 00432c3a00ccf4ed
-      X-Tsa-Request-Body-Time:
-      - '1'
-      X-Twitter-Response-Tags:
-      - BouncerCompliant
-      X-Xss-Protection:
-      - '0'
-    body:
-      encoding: UTF-8
-      string: '{"errors":[{"code":187,"message":"Status is a duplicate."}]}'
-    http_version: 
-  recorded_at: Thu, 07 Jan 2021 15:29:43 GMT
-- request:
-    method: get
-    uri: https://api.twitter.com/1.1/statuses/user_timeline.json?count=1
-    body:
-      encoding: UTF-8
-      string: ''
-    headers:
-      User-Agent:
-      - TwitterRubyGem/6.2.0
-      Authorization:
-      - OAuth oauth_consumer_key="O2XqAd2sZ4rX795BNJQIW8N2k", oauth_nonce="52ad20e26b49b73782d6dd9d08658f6a",
-        oauth_signature="abvyGWWEs%2B8gACtyppyQA%2BMnsho%3D", oauth_signature_method="HMAC-SHA1",
-        oauth_timestamp="1610033383", oauth_token="274830132-i6nvdvFvsR583rJjROAOFRlZYae5zLKafhpp93UR",
-        oauth_version="1.0"
-      Connection:
-      - close
       Host:
       - api.twitter.com
   response:
@@ -108,65 +32,55 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '2364'
+      - '2362'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Thu, 07 Jan 2021 15:29:38 GMT
+      - Thu, 07 Jan 2021 23:53:41 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Thu, 07 Jan 2021 15:29:38 GMT
+      - Thu, 07 Jan 2021 23:53:41 GMT
       Pragma:
       - no-cache
       Server:
       - tsa_d
       Set-Cookie:
-      - guest_id=v1%3A161003337878201213; Max-Age=63072000; Expires=Sat, 07 Jan 2023
-        15:29:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - guest_id=v1%3A161006362092575359; Max-Age=63072000; Expires=Sat, 07 Jan 2023
+        23:53:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       - lang=pt; Path=/
-      - personalization_id="v1_TahUfJ8JtuRX6l+hZydwdw=="; Max-Age=63072000; Expires=Sat,
-        07 Jan 2023 15:29:38 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
+      - personalization_id="v1_KmoShAHyHHgyWENF3qhUzg=="; Max-Age=63072000; Expires=Sat,
+        07 Jan 2023 23:53:41 GMT; Path=/; Domain=.twitter.com; Secure; SameSite=None
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Access-Level:
       - read-write-directmessages
-      X-App-Rate-Limit-Limit:
-      - '100000'
-      X-App-Rate-Limit-Remaining:
-      - '99997'
-      X-App-Rate-Limit-Reset:
-      - '1610110473'
       X-Connection-Hash:
-      - 653b4c67889606aea9d675fcff006c37
+      - b9b68d0497a3b0909272edbcd550579e
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - SAMEORIGIN
-      X-Rate-Limit-Limit:
-      - '900'
-      X-Rate-Limit-Remaining:
-      - '899'
-      X-Rate-Limit-Reset:
-      - '1610034278'
       X-Response-Time:
-      - '156'
+      - '205'
       X-Transaction:
-      - '0096360e00837750'
+      - 0012d35500dd21b2
+      X-Tsa-Request-Body-Time:
+      - '0'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
       - '0'
     body:
       encoding: UTF-8
-      string: '[{"created_at":"Thu Jan 07 15:29:08 +0000 2021","id":1347203622317289472,"id_str":"1347203622317289472","text":"Hello
+      string: '{"created_at":"Thu Jan 07 23:53:40 +0000 2021","id":1347330596004130821,"id_str":"1347330596004130821","text":"Hello
         world!","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[],"urls":[]},"source":"\u003ca
         href=\"http:\/\/qualitex.com.br\" rel=\"nofollow\"\u003ecaiena-post\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":274830132,"id_str":"274830132","name":"Aralyne","screen_name":"AralyneS","location":"","description":"\u00c0s
         vezes eu crio uns sistemas, \u00e0s vezes eu quebro, mas \u00e0s vezes eu
         conserto","url":"https:\/\/t.co\/riWxoFdDzQ","entities":{"url":{"urls":[{"url":"https:\/\/t.co\/riWxoFdDzQ","expanded_url":"https:\/\/www.linkedin.com\/in\/aralyne-gon%C3%A7alves-353549165\/","display_url":"linkedin.com\/in\/aralyne-gon\u2026","indices":[0,23]}]},"description":{"urls":[]}},"protected":false,"followers_count":213,"friends_count":359,"listed_count":0,"created_at":"Thu
-        Mar 31 03:14:04 +0000 2011","favourites_count":1563,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":602,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}]'
+        Mar 31 03:14:04 +0000 2011","favourites_count":1558,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":600,"lang":null,"contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"642D8B","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme10\/bg.gif","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1315404360080388096\/5mx7kG5__normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/274830132\/1607697853","profile_link_color":"FF0000","profile_sidebar_border_color":"65B0DA","profile_sidebar_fill_color":"7AC3EE","profile_text_color":"3D1957","profile_use_background_image":true,"has_extended_profile":false,"default_profile":false,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}'
     http_version: 
-  recorded_at: Thu, 07 Jan 2021 15:29:44 GMT
+  recorded_at: Thu, 07 Jan 2021 23:53:46 GMT
 recorded_with: VCR 3.0.3

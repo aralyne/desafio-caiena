@@ -5,12 +5,12 @@ RSpec.describe OpenWeatherMap::Forecast do
     context 'When return forecast weather data objec' do
       it 'must return forecast weather data object', :vcr do
         params = {city_id: '3395981'}
-
+        
         adapter = OpenWeatherMap::Forecast.new(params).call
 
         expect(adapter[0]).to have_key(:date)
         expect(adapter[0]).to have_key(:temps)
-        expect(adapter.size).to eq(6)
+        expect(adapter.size).to eq(5)
       end
     end
   end
