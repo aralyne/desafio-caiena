@@ -8,11 +8,11 @@ Realizar tweets com a previsão do tempo do dia atual e dos próximos 5 dias.
 ```sh
 $ git clone https://github.com/aralyne/desafio-caiena.git
 ```
-  - Acessar o projeto de excutar: 
+  - Acessar o projeto e excutar: 
 ```sh
 $ bundle install
 ```
-- Acessar o arquivo .env.example e renomeá-lo para .env. Atribuir uma Key de acesso ao parâmetro OPEN_WEATHER_MAP. Caso não tenha uma chave, a seguinte chave pode ser usada para teste. 
+- Acessar o arquivo .env.example e renomeá-lo para .env e atribuir uma Key de acesso ao parâmetro OPEN_WEATHER_MAP. Caso não tenha uma chave, a seguinte chave pode ser usada para teste. 
 ```sh
 OPEN_WEATHER_MAP=e88c1515be1de476a1469d4bdb9cb1eb
 ```
