@@ -58,7 +58,7 @@ GEM
       zeitwerk (~> 2.2, >= 2.2.2)
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
-    aralyne_owm (0.1.2)
+    aralyne_owm (0.1.6)
       httparty (>= 0.18.1)
       json (>= 1)
       pry (>= 0.13.1)
@@ -262,7 +262,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  aralyne_owm (~> 0.1.2)
+  aralyne_owm (~> 0.1.6)
   bootsnap (>= 1.4.2)
   byebug
   dotenv-rails

@@ -16,7 +16,7 @@ class TweetCreator
   end
 
   def current_message
-    "Hoje, #{@owm_adpter_current[:current_date]}, a temperatura é de #{@owm_adpter_current[:temp]}°C, e #{@owm_adpter_current[:weather]} em #{@owm_adpter_current[:city_name]}."
+    "Hoje, #{@owm_adpter_current[:current_date]}, a temperatura é de #{@owm_adpter_current[:temp]}°C, e #{@owm_adpter_current[:weather]} em #{@owm_adpter_current[:city_name]}. "
   end
 
   def forecast_message

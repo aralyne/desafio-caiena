@@ -1,7 +1,8 @@
 class OpenWeatherMap::Current
   def initialize(params)
+    @api_key = ENV['OPEN_WEATHER_MAP']
     @params = params
-    @api = OpenWeatherMap::Config.new(city_id, endpoint).call
+    @api = AralyneOwm::Current.new(city_id, @api_key).call
   end
 
   def call
@@ -23,10 +24,6 @@ class OpenWeatherMap::Current
 
   def error_response
     {code: @api['cod'], message: @api['message']}
-  end
-
-  def endpoint
-    'weather'
   end
 
   def city_id
