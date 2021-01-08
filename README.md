@@ -16,7 +16,7 @@ $ bundle install
 ```sh
 OPEN_WEATHER_MAP=e88c1515be1de476a1469d4bdb9cb1eb
 ```
-Como obter uma chave de API: (http://openweathermap.org/appid)
+Como obter uma chave de API: http://openweathermap.org/appid
 - Ainda no arquivo .env devem ser configuradas as keys de acesso do Twitter e preencher os parâmetros:
 ```sh
 CONSUMER_KEY=
@@ -24,7 +24,7 @@ CONSUMER_SECRET=
 ACCESS_TOKEN=
 ACCESS_TOKEN_SECRET=
 ```
-Para obter chaves do Twitter é necessário habilitar a conta de desenvolvedor acesse: https://developer.twitter.com/en e saiba mais. 
+Para obter chaves do Twitter é necessário habilitar a conta de desenvolvedor. Acesse: https://developer.twitter.com/en e saiba mais. 
 
 Com isso a aplicação já estará pronta para uso.
 
